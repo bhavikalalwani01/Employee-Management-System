@@ -1,14 +1,10 @@
 package com.scaler.employeemanagement.Services;
 
-import com.scaler.employeemanagement.Entity.EmployeeEntity;
 import com.scaler.employeemanagement.Models.Employee;
 import com.scaler.employeemanagement.Repository.EmployeeRepository;
-import lombok.Getter;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
